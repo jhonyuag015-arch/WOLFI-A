@@ -834,3 +834,224 @@ button, a, .prompt-chip, .carrera-card {
         justify-content: center;
     }
 }
+/* =====================================================
+   AJUSTES RESPONSIVE WOLFI-A
+   Se agregan al final para conservar el diseño desktop.
+   ===================================================== */
+@media (max-width: 860px) {
+    html, body {
+        min-height: 100%;
+        height: auto;
+    }
+
+    body {
+        overflow-x: hidden;
+        overflow-y: auto;
+    }
+
+    .app-layout {
+        width: 100%;
+        min-height: 100vh;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .sidebar {
+        width: 100%;
+        min-width: 0;
+        padding: 10px 14px;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        gap: 12px;
+        position: relative;
+    }
+
+    .sidebar-brand {
+        padding: 0;
+        border: 0;
+        gap: 9px;
+        flex-shrink: 0;
+    }
+
+    .brand-avatar-ring {
+        width: 40px;
+        height: 40px;
+        padding: 5px;
+    }
+
+    .brand-text h1 { font-size: 1rem; }
+    .brand-text span { font-size: 0.68rem; }
+
+    .sidebar-section {
+        margin: 0;
+        flex: 1;
+        min-width: 0;
+    }
+
+    .menu-label, .sidebar-footer { display: none; }
+
+    .sidebar-nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        gap: 6px;
+    }
+
+    .nav-btn {
+        width: auto;
+        min-width: 0;
+        padding: 9px 10px;
+        justify-content: center;
+        gap: 6px;
+        font-size: 0.78rem;
+        white-space: nowrap;
+    }
+
+    .main-stage {
+        width: 100%;
+        min-width: 0;
+        min-height: calc(100vh - 62px);
+        overflow: visible;
+    }
+
+    .topbar {
+        padding: 14px 20px;
+        gap: 12px;
+    }
+
+    .topbar-title h2 { font-size: 1.12rem; }
+    .campus-badge { padding: 6px 9px; gap: 7px; }
+    .campus-badge span { font-size: 0.65rem; }
+
+    .view-panel {
+        min-width: 0;
+        padding: 26px 22px;
+        overflow: visible;
+    }
+
+    .view-panel.active { justify-content: flex-start; }
+
+    .hero-clean-layout {
+        grid-template-columns: minmax(0, 1fr);
+        gap: 24px;
+        text-align: center;
+    }
+
+    .hero-content h1 { font-size: clamp(2rem, 6vw, 3rem); }
+    .hero-content p { max-width: 650px; margin-left: auto; margin-right: auto; }
+    .hero-actions { justify-content: center; flex-wrap: wrap; }
+    .hero-mascot { width: min(300px, 75vw); margin: 0 auto; }
+    .hero-mascot img { max-width: 100%; height: auto; }
+
+    .carreras-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    #view-chat.active { min-height: 650px; }
+    .chat-transparent-wrapper {
+        width: 100%;
+        min-height: 620px;
+        height: min(75vh, 760px);
+    }
+}
+
+@media (max-width: 600px) {
+    .sidebar {
+        align-items: stretch;
+        flex-direction: column;
+        gap: 10px;
+        padding: 10px 12px;
+    }
+
+    .sidebar-brand { justify-content: center; }
+    .brand-avatar-ring { width: 34px; height: 34px; }
+    .brand-text h1 { font-size: 0.92rem; }
+    .brand-text span { font-size: 0.62rem; }
+
+    .sidebar-section { width: 100%; }
+    .sidebar-nav {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 5px;
+    }
+
+    .nav-btn {
+        width: 100%;
+        min-height: 42px;
+        padding: 8px 4px;
+        flex-direction: column;
+        gap: 3px;
+        font-size: 0.68rem;
+        line-height: 1.15;
+        white-space: normal;
+        text-align: center;
+    }
+
+    .nav-btn svg { width: 16px; height: 16px; }
+
+    .main-stage { min-height: calc(100vh - 105px); }
+
+    .topbar {
+        align-items: flex-start;
+        flex-direction: column;
+        padding: 13px 16px;
+    }
+
+    .breadcrumb { font-size: 0.58rem; }
+    .topbar-title h2 { font-size: 1rem; }
+    .campus-badge { max-width: 100%; }
+    .campus-badge img { width: 20px; height: 20px; }
+    .campus-badge span { font-size: 0.58rem; }
+
+    .view-panel { padding: 22px 15px; }
+    .hero-clean-layout { gap: 18px; }
+    .hero-tag { font-size: 0.62rem; line-height: 1.5; }
+    .hero-content h1 { font-size: clamp(1.8rem, 9vw, 2.35rem); line-height: 1.12; }
+    .hero-content p { font-size: 0.9rem; line-height: 1.55; }
+    .hero-actions { flex-direction: column; align-items: stretch; }
+    .hero-actions button { width: 100%; justify-content: center; }
+    .hero-mascot { width: min(250px, 78vw); }
+    .mascot-floating-tag { max-width: calc(100vw - 50px); }
+
+    .oferta-header h3 { font-size: 1.25rem; }
+    .oferta-header p { font-size: 0.85rem; line-height: 1.5; }
+    .carreras-grid { grid-template-columns: minmax(0, 1fr); gap: 12px; }
+    .carrera-card { padding: 18px; }
+    .carrera-card:hover { transform: none; }
+
+    #view-chat.active { min-height: 610px; }
+    .chat-transparent-wrapper {
+        min-height: 590px;
+        height: 72vh;
+        border-radius: 16px;
+    }
+
+    .chat-header { padding: 11px 12px; gap: 8px; }
+    .chat-bot-profile { gap: 8px; min-width: 0; }
+    .chat-bot-profile img { width: 34px; height: 34px; }
+    .chat-bot-profile h3 { font-size: 0.9rem; }
+    .chat-bot-profile span { font-size: 0.64rem; }
+    .btn-clear-chat { padding: 7px 9px; font-size: 0.7rem; flex-shrink: 0; }
+
+    .chat-messages { padding: 14px 10px; gap: 12px; }
+    .message { max-width: 94%; gap: 7px; }
+    .msg-avatar { width: 28px; height: 28px; }
+    .msg-bubble { padding: 10px 12px; font-size: 0.84rem; overflow-wrap: anywhere; }
+
+    .quick-prompts { padding: 9px 10px; gap: 7px; }
+    .prompt-chip { font-size: 0.7rem; padding: 7px 10px; }
+
+    .chat-input-area { padding: 10px; gap: 7px; }
+    #entrada { min-width: 0; width: 100%; padding: 11px 10px; font-size: 16px; }
+    .btn-send-msg { padding: 11px 12px; gap: 5px; font-size: 0.78rem; flex-shrink: 0; }
+}
+
+@media (max-width: 360px) {
+    .nav-btn { font-size: 0.62rem; }
+    .campus-badge span { font-size: 0.53rem; }
+    .btn-send-msg span { display: none; }
+    .btn-send-msg { padding: 11px 13px; }
+    .chat-bot-profile span { max-width: 155px; }
+}
