@@ -1,0 +1,322 @@
+{
+  "institucion": "TecNM Campus Tláhuac II",
+  "fecha_revision": "2026-10-19",
+  "tipo": "dataset_preguntas_respuestas",
+  "nota": "Respuestas de consulta local; no requieren IA generativa. La recuperación por similitud requiere umbral de confianza y respuesta de respaldo.",
+  "registros": [
+    {
+      "intencion": "oferta_educativa",
+      "preguntas": [
+        "¿Qué carreras hay?",
+        "¿Qué carreras ofrece el Tec de Tláhuac II?",
+        "¿Cuál es la oferta educativa?",
+        "¿Qué carreras puedo estudiar en esta escuela?",
+        "¿Qué carreras puedo estudiar en el Tecnológico?",
+        "¿Qué puedo estudiar en el Tec de Tláhuac?",
+        "¿Cuáles son las carreras disponibles?",
+        "¿Qué ingenierías ofrece el Tecnológico?",
+        "¿Qué licenciaturas hay en el campus?",
+        "¿Qué opciones de estudio tiene el Tecnológico?"
+      ],
+      "respuesta": "El Campus Tláhuac II ofrece Ingeniería Mecánica, Ingeniería en Logística, Ingeniería en Tecnologías de la Información, Ingeniería en Gestión Empresarial, Ingeniería en Sistemas Computacionales y Licenciatura en Turismo.",
+      "fuente": "https://tlahuac2.tecnm.mx/oferta-educativa"
+    },
+    {
+      "intencion": "modalidades",
+      "preguntas": [
+        "¿Qué carreras hay en línea?",
+        "¿Qué puedo estudiar a distancia?",
+        "¿Hay carreras virtuales?"
+      ],
+      "respuesta": "En línea se ofrecen Ingeniería en Sistemas Computacionales e Ingeniería en Gestión Empresarial. Gestión Empresarial también tiene modalidad presencial.",
+      "fuente": "https://tlahuac2.tecnm.mx/oferta-educativa"
+    },
+    {
+      "intencion": "duracion",
+      "preguntas": [
+        "¿Cuántos semestres duran las carreras?",
+        "¿Cuánto dura una carrera?",
+        "¿Cuántos años son?"
+      ],
+      "respuesta": "La oferta educativa del campus indica una duración de 9 semestres para sus programas.",
+      "fuente": "https://tlahuac2.tecnm.mx/oferta-educativa"
+    },
+    {
+      "intencion": "mecanica_estudios",
+      "preguntas": [
+        "¿Qué se estudia en Ingeniería Mecánica?",
+        "¿De qué trata Ingeniería Mecánica?",
+        "¿Qué hace alguien que estudia Ingeniería Mecánica?"
+      ],
+      "respuesta": "En Ingeniería Mecánica se estudian temas relacionados con diseño, construcción, funcionamiento y mantenimiento de maquinaria y sistemas mecánicos.",
+      "fuente": "https://tlahuac2.tecnm.mx/oferta-educativa"
+    },
+    {
+      "intencion": "mecanica_trabajo",
+      "preguntas": [
+        "¿En qué puedo trabajar si estudio Ingeniería Mecánica?",
+        "¿Cuál es el campo laboral de Ingeniería Mecánica?"
+      ],
+      "respuesta": "Entre las posibles áreas de trabajo para egresados de Ingeniería Mecánica están: en industrias manufactureras, mantenimiento, diseño mecánico y producción.",
+      "fuente": "https://tlahuac2.tecnm.mx/oferta-educativa"
+    },
+    {
+      "intencion": "mecanica_modalidad",
+      "preguntas": [
+        "¿Ingeniería Mecánica es presencial o en línea?",
+        "¿Qué modalidad tiene Ingeniería Mecánica?"
+      ],
+      "respuesta": "Ingeniería Mecánica se ofrece en modalidad presencial. Su duración publicada es de 9 semestres.",
+      "fuente": "https://tlahuac2.tecnm.mx/oferta-educativa"
+    },
+    {
+      "intencion": "logistica_estudios",
+      "preguntas": [
+        "¿Qué se estudia en Ingeniería en Logística?",
+        "¿De qué trata Ingeniería en Logística?",
+        "¿Qué hace alguien que estudia Ingeniería en Logística?"
+      ],
+      "respuesta": "En Ingeniería en Logística se estudian temas relacionados con planeación y gestión del transporte, almacenamiento, inventarios y cadenas de suministro.",
+      "fuente": "https://tlahuac2.tecnm.mx/oferta-educativa"
+    },
+    {
+      "intencion": "logistica_trabajo",
+      "preguntas": [
+        "¿En qué puedo trabajar si estudio Ingeniería en Logística?",
+        "¿Cuál es el campo laboral de Ingeniería en Logística?"
+      ],
+      "respuesta": "Entre las posibles áreas de trabajo para egresados de Ingeniería en Logística están: en transporte, almacenes, distribución y gestión de cadenas de suministro.",
+      "fuente": "https://tlahuac2.tecnm.mx/oferta-educativa"
+    },
+    {
+      "intencion": "logistica_modalidad",
+      "preguntas": [
+        "¿Ingeniería en Logística es presencial o en línea?",
+        "¿Qué modalidad tiene Ingeniería en Logística?"
+      ],
+      "respuesta": "Ingeniería en Logística se ofrece en modalidad presencial. Su duración publicada es de 9 semestres.",
+      "fuente": "https://tlahuac2.tecnm.mx/oferta-educativa"
+    },
+    {
+      "intencion": "ti_estudios",
+      "preguntas": [
+        "¿Qué se estudia en Ingeniería en Tecnologías de la Información?",
+        "¿De qué trata Ingeniería en Tecnologías de la Información?",
+        "¿Qué hace alguien que estudia Ingeniería en Tecnologías de la Información?"
+      ],
+      "respuesta": "En Ingeniería en Tecnologías de la Información se estudian temas relacionados con programación, redes, ciberseguridad y desarrollo de soluciones tecnológicas.",
+      "fuente": "https://tlahuac2.tecnm.mx/oferta-educativa"
+    },
+    {
+      "intencion": "ti_trabajo",
+      "preguntas": [
+        "¿En qué puedo trabajar si estudio Ingeniería en Tecnologías de la Información?",
+        "¿Cuál es el campo laboral de Ingeniería en Tecnologías de la Información?"
+      ],
+      "respuesta": "Entre las posibles áreas de trabajo para egresados de Ingeniería en Tecnologías de la Información están: en desarrollo de software, redes, soporte tecnológico y seguridad informática.",
+      "fuente": "https://tlahuac2.tecnm.mx/oferta-educativa"
+    },
+    {
+      "intencion": "ti_modalidad",
+      "preguntas": [
+        "¿Ingeniería en Tecnologías de la Información es presencial o en línea?",
+        "¿Qué modalidad tiene Ingeniería en Tecnologías de la Información?"
+      ],
+      "respuesta": "Ingeniería en Tecnologías de la Información se ofrece en modalidad presencial. Su duración publicada es de 9 semestres.",
+      "fuente": "https://tlahuac2.tecnm.mx/oferta-educativa"
+    },
+    {
+      "intencion": "gestion_estudios",
+      "preguntas": [
+        "¿Qué se estudia en Ingeniería en Gestión Empresarial?",
+        "¿De qué trata Ingeniería en Gestión Empresarial?",
+        "¿Qué hace alguien que estudia Ingeniería en Gestión Empresarial?"
+      ],
+      "respuesta": "En Ingeniería en Gestión Empresarial se estudian temas relacionados con administración de recursos, innovación de procesos y estrategias de negocios.",
+      "fuente": "https://tlahuac2.tecnm.mx/oferta-educativa"
+    },
+    {
+      "intencion": "gestion_trabajo",
+      "preguntas": [
+        "¿En qué puedo trabajar si estudio Ingeniería en Gestión Empresarial?",
+        "¿Cuál es el campo laboral de Ingeniería en Gestión Empresarial?"
+      ],
+      "respuesta": "Entre las posibles áreas de trabajo para egresados de Ingeniería en Gestión Empresarial están: en administración, gestión de proyectos, consultoría y emprendimiento.",
+      "fuente": "https://tlahuac2.tecnm.mx/oferta-educativa"
+    },
+    {
+      "intencion": "gestion_modalidad",
+      "preguntas": [
+        "¿Ingeniería en Gestión Empresarial es presencial o en línea?",
+        "¿Qué modalidad tiene Ingeniería en Gestión Empresarial?"
+      ],
+      "respuesta": "Ingeniería en Gestión Empresarial se ofrece en modalidad presencial y en línea. Su duración publicada es de 9 semestres.",
+      "fuente": "https://tlahuac2.tecnm.mx/oferta-educativa"
+    },
+    {
+      "intencion": "sistemas_estudios",
+      "preguntas": [
+        "¿Qué se estudia en Ingeniería en Sistemas Computacionales?",
+        "¿De qué trata Ingeniería en Sistemas Computacionales?",
+        "¿Qué hace alguien que estudia Ingeniería en Sistemas Computacionales?"
+      ],
+      "respuesta": "En Ingeniería en Sistemas Computacionales se estudian temas relacionados con desarrollo de software, redes y sistemas inteligentes.",
+      "fuente": "https://tlahuac2.tecnm.mx/oferta-educativa"
+    },
+    {
+      "intencion": "sistemas_trabajo",
+      "preguntas": [
+        "¿En qué puedo trabajar si estudio Ingeniería en Sistemas Computacionales?",
+        "¿Cuál es el campo laboral de Ingeniería en Sistemas Computacionales?"
+      ],
+      "respuesta": "Entre las posibles áreas de trabajo para egresados de Ingeniería en Sistemas Computacionales están: en programación, análisis de sistemas, redes y desarrollo tecnológico.",
+      "fuente": "https://tlahuac2.tecnm.mx/oferta-educativa"
+    },
+    {
+      "intencion": "sistemas_modalidad",
+      "preguntas": [
+        "¿Ingeniería en Sistemas Computacionales es presencial o en línea?",
+        "¿Qué modalidad tiene Ingeniería en Sistemas Computacionales?"
+      ],
+      "respuesta": "Ingeniería en Sistemas Computacionales se ofrece en modalidad en línea. Su duración publicada es de 9 semestres.",
+      "fuente": "https://tlahuac2.tecnm.mx/oferta-educativa"
+    },
+    {
+      "intencion": "turismo_estudios",
+      "preguntas": [
+        "¿Qué se estudia en Licenciatura en Turismo?",
+        "¿De qué trata Licenciatura en Turismo?",
+        "¿Qué hace alguien que estudia Licenciatura en Turismo?"
+      ],
+      "respuesta": "En Licenciatura en Turismo se estudian temas relacionados con gestión de servicios turísticos y desarrollo de proyectos de turismo sustentable.",
+      "fuente": "https://tlahuac2.tecnm.mx/oferta-educativa"
+    },
+    {
+      "intencion": "turismo_trabajo",
+      "preguntas": [
+        "¿En qué puedo trabajar si estudio Licenciatura en Turismo?",
+        "¿Cuál es el campo laboral de Licenciatura en Turismo?"
+      ],
+      "respuesta": "Entre las posibles áreas de trabajo para egresados de Licenciatura en Turismo están: en empresas turísticas, servicios de hospedaje, planificación y gestión de proyectos turísticos.",
+      "fuente": "https://tlahuac2.tecnm.mx/oferta-educativa"
+    },
+    {
+      "intencion": "turismo_modalidad",
+      "preguntas": [
+        "¿Licenciatura en Turismo es presencial o en línea?",
+        "¿Qué modalidad tiene Licenciatura en Turismo?"
+      ],
+      "respuesta": "Licenciatura en Turismo se ofrece en modalidad presencial. Su duración publicada es de 9 semestres.",
+      "fuente": "https://tlahuac2.tecnm.mx/oferta-educativa"
+    },
+    {
+      "intencion": "admision",
+      "preguntas": [
+        "¿Cómo me inscribo?",
+        "¿Cómo es el proceso de admisión?",
+        "¿Dónde solicito ficha?"
+      ],
+      "respuesta": "El proceso de admisión incluye registro, ficha y pago, examen, consulta de resultados e inscripción. Revisa la convocatoria vigente y el portal de aspirantes para conocer fechas y requisitos.",
+      "fuente": "https://sii.tlahuac2.tecnm.mx/asp"
+    },
+    {
+      "intencion": "sin_respuesta",
+      "preguntas": [
+        "No encuentro mi pregunta",
+        "Necesito ayuda de una persona"
+      ],
+      "respuesta": "No tengo información oficial suficiente para responder esa consulta. Te recomiendo comunicarte con el área correspondiente del campus.",
+      "fuente": "https://tlahuac2.tecnm.mx/"
+    },
+    {
+      "intencion": "mecanica_perfil_ingreso",
+      "preguntas": [
+        "¿Cuál es el perfil de ingreso de Ingeniería Mecánica?",
+        "¿Qué conocimientos necesito para entrar a Ingeniería Mecánica?",
+        "¿Qué habilidades se recomiendan para estudiar Ingeniería Mecánica?"
+      ],
+      "respuesta": "El perfil de ingreso específico de Ingeniería Mecánica está pendiente de verificación en documentación oficial. Consulta la coordinación de la carrera o Servicios Escolares.",
+      "fuente": "https://tlahuac2.tecnm.mx/oferta-educativa/mecanica",
+      "estado": "pendiente_verificacion"
+    },
+    {
+      "intencion": "logistica_perfil_ingreso",
+      "preguntas": [
+        "¿Cuál es el perfil de ingreso de Ingeniería en Logística?",
+        "¿Qué conocimientos necesito para entrar a Ingeniería en Logística?",
+        "¿Qué habilidades se recomiendan para estudiar Ingeniería en Logística?"
+      ],
+      "respuesta": "El perfil de ingreso específico de Ingeniería en Logística está pendiente de verificación en documentación oficial. Consulta la coordinación de la carrera o Servicios Escolares.",
+      "fuente": "https://tlahuac2.tecnm.mx/oferta-educativa/logistica",
+      "estado": "pendiente_verificacion"
+    },
+    {
+      "intencion": "ti_perfil_ingreso",
+      "preguntas": [
+        "¿Cuál es el perfil de ingreso de Ingeniería en Tecnologías de la Información y Comunicaciones?",
+        "¿Qué conocimientos necesito para entrar a Ingeniería en Tecnologías de la Información y Comunicaciones?",
+        "¿Qué habilidades se recomiendan para estudiar Ingeniería en Tecnologías de la Información y Comunicaciones?"
+      ],
+      "respuesta": "El perfil de ingreso específico de Ingeniería en Tecnologías de la Información y Comunicaciones está pendiente de verificación en documentación oficial. Consulta la coordinación de la carrera o Servicios Escolares.",
+      "fuente": "https://tlahuac2.tecnm.mx/oferta-educativa/tecnologias-informacion",
+      "estado": "pendiente_verificacion"
+    },
+    {
+      "intencion": "gestion_perfil_ingreso",
+      "preguntas": [
+        "¿Cuál es el perfil de ingreso de Ingeniería en Gestión Empresarial?",
+        "¿Qué conocimientos necesito para entrar a Ingeniería en Gestión Empresarial?",
+        "¿Qué habilidades se recomiendan para estudiar Ingeniería en Gestión Empresarial?"
+      ],
+      "respuesta": "El perfil de ingreso específico de Ingeniería en Gestión Empresarial está pendiente de verificación en documentación oficial. Consulta la coordinación de la carrera o Servicios Escolares.",
+      "fuente": "https://tlahuac2.tecnm.mx/oferta-educativa",
+      "estado": "pendiente_verificacion"
+    },
+    {
+      "intencion": "sistemas_perfil_ingreso",
+      "preguntas": [
+        "¿Cuál es el perfil de ingreso de Ingeniería en Sistemas Computacionales?",
+        "¿Qué conocimientos necesito para entrar a Ingeniería en Sistemas Computacionales?",
+        "¿Qué habilidades se recomiendan para estudiar Ingeniería en Sistemas Computacionales?"
+      ],
+      "respuesta": "El perfil de ingreso específico de Ingeniería en Sistemas Computacionales está pendiente de verificación en documentación oficial. Consulta la coordinación de la carrera o Servicios Escolares.",
+      "fuente": "https://tlahuac2.tecnm.mx/oferta-educativa/sistemas-computacionales",
+      "estado": "pendiente_verificacion"
+    },
+    {
+      "intencion": "turismo_perfil_ingreso",
+      "preguntas": [
+        "¿Cuál es el perfil de ingreso de Licenciatura en Turismo?",
+        "¿Qué conocimientos necesito para entrar a Licenciatura en Turismo?",
+        "¿Qué habilidades se recomiendan para estudiar Licenciatura en Turismo?"
+      ],
+      "respuesta": "El perfil de ingreso específico de Licenciatura en Turismo está pendiente de verificación en documentación oficial. Consulta la coordinación de la carrera o Servicios Escolares.",
+      "fuente": "https://tlahuac2.tecnm.mx/oferta-educativa",
+      "estado": "pendiente_verificacion"
+    },
+    {
+      "intencion": "objetivo_mecanica",
+      "preguntas": [
+        "¿Cuál es el objetivo de Ingeniería Mecánica?",
+        "¿Para qué sirve estudiar Ingeniería Mecánica?",
+        "¿Qué busca formar la carrera de Ingeniería Mecánica?",
+        "¿Cuál es el objetivo general de Mecánica?",
+        "¿Qué aprenderé en Ingeniería Mecánica?"
+      ],
+      "respuesta": "El objetivo de Ingeniería Mecánica es formar profesionales innovadores y emprendedores capaces de aplicar conocimientos científicos y tecnológicos en diseño, manufactura, energía, automatización y mantenimiento de sistemas mecánicos, administrando recursos de manera segura, eficiente y sustentable, con ética y compromiso social.",
+      "fuente": "https://tlahuac2.tecnm.mx/oferta-educativa/mecanica"
+    },
+    {
+      "intencion": "perfil_egreso_mecanica",
+      "preguntas": [
+        "¿Cuál es el perfil de egreso de Ingeniería Mecánica?",
+        "¿Qué habilidades tendré al terminar Ingeniería Mecánica?",
+        "¿Qué conocimientos obtiene un egresado de Mecánica?",
+        "¿Qué capacidades desarrolla un ingeniero mecánico?",
+        "¿Qué sabré hacer cuando termine Ingeniería Mecánica?"
+      ],
+      "respuesta": "El egresado de Ingeniería Mecánica puede diseñar y fabricar elementos mecánicos, seleccionar materiales, desarrollar prototipos, gestionar proyectos de manufactura, automatización y mantenimiento, aplicar normas de calidad y seguridad, y participar en proyectos tecnológicos sustentables. También desarrolla liderazgo, pensamiento crítico, trabajo en equipo y responsabilidad ética y ambiental.",
+      "fuente": "https://tlahuac2.tecnm.mx/oferta-educativa/mecanica"
+    }
+  ]
+}
